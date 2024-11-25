@@ -12,7 +12,7 @@ app.use(cors()); // Allow Cross-Origin requests
 
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the ChatGPT Backend Server!');
+    res.send('anh binh dep trai!');
 });
 // Route để xử lý yêu cầu từ frontend
 app.post('/api/chat', async (req, res) => {
